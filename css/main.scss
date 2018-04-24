@@ -217,6 +217,19 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	.halfdiv {
+		header{
+			text-align: center;
+		}
+		p {
+			text-align: center;
+		}
+		vertical-align: top;
+		padding: 5%;
+		max-width: 49%;
+		display: inline-block;
+	}
+
 	header {
 		p {
 			color: _palette(fg-light);
